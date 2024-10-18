@@ -1,5 +1,8 @@
 import { useState } from 'react'
 import { Responsive, WidthProvider } from 'react-grid-layout'
+
+import Button from '@/components/button/Button'
+
 import './home.css'
 
 // Envuelve Responsive con WidthProvider
@@ -71,9 +74,37 @@ const Home = () => {
       isDraggable={true}
       isResizable={false}
     >
-      {layouts.lg.map(item => (
-        <div key={item.i}>{item.i}</div>
-      ))}
+      <div key='1' className='grid-item' onClick={e => e.stopPropagation()}>
+        Item 1
+        <Button link='/404' label='Label text' />
+        <Button link='/404' label='Label text' variant='secondary' />
+        <Button link='/404' label='Label text' variant='disabled' />
+        <Button link='/404' label='' variant='icon' />
+      </div>
+      <div key='2' className='grid-item' onClick={e => e.stopPropagation()}>
+        Item 2
+      </div>
+      <div key='3' className='grid-item' onClick={e => e.stopPropagation()}>
+        Item 3
+      </div>
+      <div key='4' className='grid-item' onClick={e => e.stopPropagation()}>
+        Item 4
+      </div>
+      <div key='5' className='grid-item' onClick={e => e.stopPropagation()}>
+        Item 5
+      </div>
+      <div key='6' className='grid-item' onClick={e => e.stopPropagation()}>
+        Item 6
+      </div>
+      <div key='7' className='grid-item' onClick={e => e.stopPropagation()}>
+        Item 7
+      </div>
+      <div key='8' className='grid-item' onClick={e => e.stopPropagation()}>
+        Item 8
+      </div>
+      <div key='9' className='grid-item' onClick={e => e.stopPropagation()}>
+        Item 9
+      </div>
     </ResponsiveGridLayout>
   )
 }

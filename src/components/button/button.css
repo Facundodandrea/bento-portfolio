@@ -1,0 +1,37 @@
+.button {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--btn-border-color);
+    box-shadow: 2px 4px 0 0 var(--btn-border-color);
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.button:active {
+    transition: all 0.3s ease;
+    box-shadow: 1px 2px 0 0 var(--btn-border-color);
+}
+
+.primary {
+    background-color: black;
+    color: white;
+}
+
+.secondary {
+    background-color: white;
+    color: black;
+}
+
+.disabled {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: gray; 
+    border: 1px solid rgba(0, 0, 0, 0.5); 
+    box-shadow: none;
+    cursor: not-allowed;
+}
+
+
+.icon {
+    background-color: black;
+    color: white;
+}

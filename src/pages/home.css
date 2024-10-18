@@ -1,5 +1,5 @@
 .react-grid-item{
-    background-color: #040B17;
+    background-color: var(--bg-card);
     border: 1px solid var(--border-color);
     transition: all 0.1s ease;
     cursor: grab;

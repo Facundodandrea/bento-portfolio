@@ -13,6 +13,8 @@
   -moz-osx-font-smoothing: grayscale;
 
   --border-color: #123C85;
+  --btn-border-color: #0D1C65;
+  --bg-card: #040B17;
 }
 
 a {
