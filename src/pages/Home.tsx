@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Responsive, WidthProvider } from 'react-grid-layout'
 
 import Button from '@/components/button/Button'
-import WideCard from '@/components/cards/wideCard/WideCard'
+import { WideCard, AboutCard } from '@/components/cards/index'
 
 import {
   EmailIcon,
@@ -101,7 +101,9 @@ const Home = () => {
         </WideCard>
       </div>
       <div key='2' className='grid-item' onClick={e => e.stopPropagation()}>
-        Item 2
+        <AboutCard markdownPath='src/data/about-me.md'>
+          {/* Aqui van las tags <Tags label='HTML' />*/}
+        </AboutCard>
       </div>
       <div key='3' className='grid-item' onClick={e => e.stopPropagation()}>
         Item 3

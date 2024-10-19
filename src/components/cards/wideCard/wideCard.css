@@ -13,13 +13,16 @@
     .info {
         display: flex;
         align-items: center;
-        font-size: 1.5rem;
-        font-weight: 300;
-        line-height: 1.688rem;
         margin: 2rem 3rem;
         gap: 3rem;
 
-        text-align: left;
+        p {
+            font-size: 1.5rem;
+            font-weight: 300;
+            line-height: 2rem;
+            text-align: left;
+        }
+
         
             img {
                 max-width: 200px;

@@ -3,6 +3,6 @@
     text-align: center;
     border-radius: 1rem;
     transition: all 0.1s ease;
-    border: 1px solid var(--border-color);
+    /*border: 1px solid var(--border-color);*/
     color: white;
 }

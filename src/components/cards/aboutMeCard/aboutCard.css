@@ -1,0 +1,22 @@
+.about-card {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow: hidden;
+    border-radius: 1rem;
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-color);
+    
+    .info {
+        margin: 4rem;
+
+        p {
+            text-align: center;
+            font-size: 1.5rem;
+            font-weight: 300;
+            line-height: 2rem;
+        }
+     }
+}
