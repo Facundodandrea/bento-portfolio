@@ -1,9 +1,8 @@
 .react-grid-item{
-    background-color: var(--bg-card);
-    border: 1px solid var(--border-color);
-    transition: all 0.1s ease;
     cursor: grab;
-    border-radius: 1rem;
-
     text-align: center;
+    border-radius: 1rem;
+    transition: all 0.1s ease;
+    border: 1px solid var(--border-color);
+    color: white;
 }

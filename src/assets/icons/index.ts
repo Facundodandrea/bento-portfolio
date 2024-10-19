@@ -1,0 +1,6 @@
+export { default as XIcon } from './XIcon'
+export { default as LinkedinIcon } from './LinkedinIcon'
+export { default as InstagramIcon } from './InstagramIcon'
+export { default as GithubIcon } from './GithubIcon'
+export { default as FacebookIcon } from './FacebookIcon'
+export { default as EmailIcon } from './EmailIcon'
