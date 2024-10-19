@@ -14,6 +14,8 @@ import {
 } from '@/assets/icons'
 
 import './home.css'
+import StudiesCard from '@/components/cards/studiesCard/StudiesCard'
+import FooterCard from '@/components/cards/footerCard/FooterCard'
 
 // Envuelve Responsive con WidthProvider
 const ResponsiveGridLayout = WidthProvider(Responsive)
@@ -106,7 +108,7 @@ const Home = () => {
         </AboutCard>
       </div>
       <div key='3' className='grid-item' onClick={e => e.stopPropagation()}>
-        Item 3
+        <StudiesCard markdownPath='src/data/studies.md' />
       </div>
       <div key='4' className='grid-item' onClick={e => e.stopPropagation()}>
         Item 4
@@ -124,7 +126,7 @@ const Home = () => {
         Item 8
       </div>
       <div key='9' className='grid-item' onClick={e => e.stopPropagation()}>
-        Item 9
+        <FooterCard />
       </div>
     </ResponsiveGridLayout>
   )
