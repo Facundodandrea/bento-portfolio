@@ -122,28 +122,28 @@ const Home = () => {
       <div key='5' className='grid-item' onClick={e => e.stopPropagation()}>
         <WorkCard
           companyName='UxCorp Rangel'
-          link='/404'
+          link='/projects/portfolio-ana-rangel'
           projectName='Portfolio Ana Rangel '
         />
       </div>
       <div key='6' className='grid-item' onClick={e => e.stopPropagation()}>
         <WorkCard
           companyName='Comunidad Javascript'
-          link='/404'
+          link='/projects/jsconf-chile-2024'
           projectName='JSConf Chile 2024'
         />
       </div>
       <div key='7' className='grid-item' onClick={e => e.stopPropagation()}>
         <WorkCard
           companyName='UxCorp Rangel'
-          link='/404'
+          link='/projects/ux-corp-page'
           projectName='UX Corp Rangel - Página oficial'
         />
       </div>
       <div key='8' className='grid-item' onClick={e => e.stopPropagation()}>
         <WorkCard
           companyName='UxCorp Rangel'
-          link='/404'
+          link='/projects/portfolio-para-devs-jr'
           projectName='Portfololio para devs - Jr'
         />
       </div>
