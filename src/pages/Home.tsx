@@ -2,9 +2,13 @@ import { useState } from 'react'
 import { Responsive, WidthProvider } from 'react-grid-layout'
 
 import Button from '@/components/button/Button'
-import { WideCard, AboutCard } from '@/components/cards/index'
-import StudiesCard from '@/components/cards/studiesCard/StudiesCard'
-import FooterCard from '@/components/cards/footerCard/FooterCard'
+import {
+  WideCard,
+  AboutCard,
+  StudiesCard,
+  StatusCard,
+  FooterCard,
+} from '@/components/cards/index'
 import { studies } from '@/data/studies'
 
 import {
@@ -112,7 +116,7 @@ const Home = () => {
         <StudiesCard studies={studies} />
       </div>
       <div key='4' className='grid-item' onClick={e => e.stopPropagation()}>
-        Item 4
+        <StatusCard isSearching={true} />
       </div>
       <div key='5' className='grid-item' onClick={e => e.stopPropagation()}>
         Item 5
