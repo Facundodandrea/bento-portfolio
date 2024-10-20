@@ -8,6 +8,7 @@ import {
   StudiesCard,
   StatusCard,
   FooterCard,
+  WorkCard,
 } from '@/components/cards/index'
 import { studies } from '@/data/studies'
 
@@ -119,16 +120,32 @@ const Home = () => {
         <StatusCard isSearching={true} />
       </div>
       <div key='5' className='grid-item' onClick={e => e.stopPropagation()}>
-        Item 5
+        <WorkCard
+          companyName='UxCorp Rangel'
+          link='/404'
+          projectName='Portfolio Ana Rangel '
+        />
       </div>
       <div key='6' className='grid-item' onClick={e => e.stopPropagation()}>
-        Item 6
+        <WorkCard
+          companyName='Comunidad Javascript'
+          link='/404'
+          projectName='JSConf Chile 2024'
+        />
       </div>
       <div key='7' className='grid-item' onClick={e => e.stopPropagation()}>
-        Item 7
+        <WorkCard
+          companyName='UxCorp Rangel'
+          link='/404'
+          projectName='UX Corp Rangel - Página oficial'
+        />
       </div>
       <div key='8' className='grid-item' onClick={e => e.stopPropagation()}>
-        Item 8
+        <WorkCard
+          companyName='UxCorp Rangel'
+          link='/404'
+          projectName='Portfololio para devs - Jr'
+        />
       </div>
       <div key='9' className='grid-item' onClick={e => e.stopPropagation()}>
         <FooterCard />

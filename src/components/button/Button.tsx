@@ -7,7 +7,7 @@ interface ButtonProps {
   link: string
   icon?: React.ReactNode
   label?: string
-  variant?: 'primary' | 'secondary' | 'disabled' | 'icon'
+  variant?: 'primary' | 'secondary' | 'disabled' | 'icon' | 'transparent'
   size?: number // Agrega propiedad para tamaño
 }
 

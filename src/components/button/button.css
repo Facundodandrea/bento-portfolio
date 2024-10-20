@@ -1,8 +1,6 @@
 .button {
     padding: 0.5rem;
     border-radius: 0.5rem;
-    border: 1px solid var(--btn-border-color);
-    box-shadow: 2px 4px 0 0 var(--btn-border-color);
     font-size: 1.5rem;
     cursor: pointer;
 }
@@ -13,16 +11,22 @@
 }
 
 .primary {
+    border: 1px solid var(--btn-border-color);
+    box-shadow: 2px 4px 0 0 var(--btn-border-color);
     background-color: black;
     color: white;
 }
 
 .secondary {
+    border: 1px solid var(--btn-border-color);
+    box-shadow: 2px 4px 0 0 var(--btn-border-color);
     background-color: white;
     color: black;
 }
 
 .disabled {
+    border: 1px solid var(--btn-border-color);
+    box-shadow: 2px 4px 0 0 var(--btn-border-color);
     background-color: rgba(0, 0, 0, 0.5);
     color: gray; 
     border: 1px solid rgba(0, 0, 0, 0.5); 
@@ -32,9 +36,19 @@
 
 
 .icon {
+    border: 1px solid var(--btn-border-color);
+    box-shadow: 2px 4px 0 0 var(--btn-border-color);
     background-color: black;
     color: white;
     display: flex;
     align-items: center;
-    
+}
+
+.transaprent {
+    border: 1px solid var(--btn-border-color);
+    box-shadow: 2px 4px 0 0 var(--btn-border-color);
+    background-color: transparent;
+    color: white;
+    display: flex;
+    align-items: center;
 }
