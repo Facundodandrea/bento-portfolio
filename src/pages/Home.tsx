@@ -3,6 +3,9 @@ import { Responsive, WidthProvider } from 'react-grid-layout'
 
 import Button from '@/components/button/Button'
 import { WideCard, AboutCard } from '@/components/cards/index'
+import StudiesCard from '@/components/cards/studiesCard/StudiesCard'
+import FooterCard from '@/components/cards/footerCard/FooterCard'
+import { studies } from '@/data/studies'
 
 import {
   EmailIcon,
@@ -14,8 +17,6 @@ import {
 } from '@/assets/icons'
 
 import './home.css'
-import StudiesCard from '@/components/cards/studiesCard/StudiesCard'
-import FooterCard from '@/components/cards/footerCard/FooterCard'
 
 // Envuelve Responsive con WidthProvider
 const ResponsiveGridLayout = WidthProvider(Responsive)
@@ -108,7 +109,7 @@ const Home = () => {
         </AboutCard>
       </div>
       <div key='3' className='grid-item' onClick={e => e.stopPropagation()}>
-        <StudiesCard markdownPath='src/data/studies.md' />
+        <StudiesCard studies={studies} />
       </div>
       <div key='4' className='grid-item' onClick={e => e.stopPropagation()}>
         Item 4
