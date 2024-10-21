@@ -14,8 +14,6 @@ import { studies } from '@/data/studies'
 
 import {
   EmailIcon,
-  FacebookIcon,
-  XIcon,
   LinkedinIcon,
   GithubIcon,
   InstagramIcon,
@@ -101,12 +99,30 @@ const Home = () => {
           markdownPath='src/data/introduction.md'
           imagePath='src/assets/imgs/face.avif'
         >
-          <Button link='/404' icon={<EmailIcon />} variant='icon' />
-          <Button link='/404' icon={<FacebookIcon />} variant='icon' />
-          <Button link='/404' icon={<XIcon />} variant='icon' />
-          <Button link='/404' icon={<LinkedinIcon />} variant='icon' />
-          <Button link='/404' icon={<GithubIcon />} variant='icon' />
-          <Button link='/404' icon={<InstagramIcon />} variant='icon' />
+          <Button
+            link='mailto:facundodandrea01@gmail.com?subject=Consulta&body=Hola Facundo queremos hablar contigo'
+            icon={<EmailIcon />}
+            variant='icon'
+            external={true}
+          />
+          <Button
+            link='https://www.linkedin.com/in/facundo-d-andrea/'
+            icon={<LinkedinIcon />}
+            variant='icon'
+            external={true}
+          />
+          <Button
+            link='https://github.com/Facundodandrea'
+            icon={<GithubIcon />}
+            variant='icon'
+            external={true}
+          />
+          <Button
+            link='https://www.instagram.com/facudandrea1/'
+            icon={<InstagramIcon />}
+            variant='icon'
+            external={true}
+          />
         </WideCard>
       </div>
       <div key='2' className='grid-item' onClick={e => e.stopPropagation()}>
