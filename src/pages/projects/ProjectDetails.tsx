@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import ReactMarkdown from 'react-markdown'
+import rehypeRaw from 'rehype-raw' // Importa rehype-raw
+import Button from '@/components/button/Button'
 import './projectDetails.css'
 
 const ProjectPage: React.FC = () => {
@@ -28,9 +30,11 @@ const ProjectPage: React.FC = () => {
 
   return (
     <div className='project-page'>
+      <Button link='/' label='volver' variant='transparent' />
       <div className='markdown-content'>
-        <ReactMarkdown>{markdown}</ReactMarkdown>
+        <ReactMarkdown rehypePlugins={[rehypeRaw]}>{markdown}</ReactMarkdown>
       </div>
+      <Button link='/' label='volver' variant='transparent' />
     </div>
   )
 }
