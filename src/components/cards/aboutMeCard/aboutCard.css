@@ -19,4 +19,14 @@
             line-height: 2rem;
         }
      }
+
+    .tags-container {
+        gap: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+
+        padding: 1rem;
+    }
 }

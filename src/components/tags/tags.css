@@ -1,0 +1,19 @@
+.tag {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    border-radius: 5rem;
+    border: 1px solid var(--border-color);
+    width: fit-content;
+    padding: 0.5rem;
+
+    font-size: 1rem;
+    font-weight: 500;
+
+    svg {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+}

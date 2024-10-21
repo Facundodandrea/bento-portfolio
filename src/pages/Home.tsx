@@ -22,6 +22,7 @@ import {
 } from '@/assets/icons'
 
 import './home.css'
+import Tags from '@/components/tags/Tags'
 
 // Envuelve Responsive con WidthProvider
 const ResponsiveGridLayout = WidthProvider(Responsive)
@@ -110,7 +111,15 @@ const Home = () => {
       </div>
       <div key='2' className='grid-item' onClick={e => e.stopPropagation()}>
         <AboutCard markdownPath='src/data/about-me.md'>
-          {/* Aqui van las tags <Tags label='HTML' />*/}
+          <Tags technology='HTML' />
+          <Tags technology='CSS' />
+          <Tags technology='JavaScript' />
+          <Tags technology='TypeScript' />
+          <Tags technology='Sass' />
+          <Tags technology='React' />
+          <Tags technology='Astro' />
+          <Tags technology='MySQL' />
+          <Tags technology='Node' />
         </AboutCard>
       </div>
       <div key='3' className='grid-item' onClick={e => e.stopPropagation()}>
