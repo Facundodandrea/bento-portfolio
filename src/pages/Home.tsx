@@ -93,6 +93,7 @@ const Home = () => {
       rowHeight={62}
       isDraggable={true}
       isResizable={false}
+      margin={[32, 32]}
     >
       <div key='1' className='grid-item' onClick={e => e.stopPropagation()}>
         <WideCard
