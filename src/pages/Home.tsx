@@ -97,7 +97,7 @@ const Home = () => {
     >
       <div key='1' className='grid-item' onClick={e => e.stopPropagation()}>
         <WideCard
-          markdownPath='src/data/introduction.md'
+          markdownPath='/data/introduction.md'
           imagePath='src/assets/imgs/face.avif'
         >
           <Button
@@ -127,7 +127,7 @@ const Home = () => {
         </WideCard>
       </div>
       <div key='2' className='grid-item' onClick={e => e.stopPropagation()}>
-        <AboutCard markdownPath='src/data/about-me.md'>
+        <AboutCard markdownPath='/data/about-me.md'>
           <Tags technology='HTML' />
           <Tags technology='CSS' />
           <Tags technology='JavaScript' />
