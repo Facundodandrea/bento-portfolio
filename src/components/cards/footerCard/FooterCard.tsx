@@ -6,7 +6,7 @@ const FooterCard = () => {
       <p>© 2024 Diseñado por UX Ana Rangel</p>
       <div className='made-with'>
         <p>Hecho con</p>
-        <video src='src/assets/video/heart.webm' autoPlay loop muted />
+        <video src='/assets/video/heart.webm' autoPlay loop muted />
         <p>por la comunidad</p>
       </div>
     </div>

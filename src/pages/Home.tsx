@@ -98,7 +98,8 @@ const Home = () => {
       <div key='1' className='grid-item' onClick={e => e.stopPropagation()}>
         <WideCard
           markdownPath='/data/introduction.md'
-          imagePath='/assets/imgs/face.avif'
+          imagePath='
+          /assets/imgs/face.avif'
         >
           <Button
             link='mailto:facundodandrea01@gmail.com?subject=Consulta&body=Hola Facundo queremos hablar contigo'
