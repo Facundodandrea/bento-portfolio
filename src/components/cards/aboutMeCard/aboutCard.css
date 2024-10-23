@@ -10,7 +10,7 @@
     border: 1px solid var(--border-color);
     
     .info {
-        margin: 4rem;
+        margin: 1rem 2rem;
 
         p {
             text-align: center;
