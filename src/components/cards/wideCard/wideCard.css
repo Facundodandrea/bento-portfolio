@@ -38,13 +38,51 @@
     }
 }
 
+@media (Width <= 1301px) {
+    .wide-card {
+    .info {
+        margin: 0.8rem 1rem;
+        gap: 2rem;
+        p {
+            font-size: 1.25rem;
+        }
+        }
+    }
+}
+
+@media (Width <= 1244px) {
+    .wide-card {
+    .info {
+        p {
+            font-size: 1.15rem;
+        }
+        }
+    }
+}
+
+@media (Width <= 1187px) {
+    .wide-card {
+    .info {
+        p {
+            font-size: 1rem;
+        }
+        }
+    }
+}
+
 @media (Width <= 768px) {
     .wide-card {
     align-items: center;
 
     .info {
         flex-direction: column-reverse;
+            p {
+                font-size: 1.25rem;
+            }
+        }
         
-    }
+            .button-container {
+                margin-left: 0;
+            }
     }
 }
