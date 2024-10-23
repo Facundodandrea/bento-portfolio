@@ -12,6 +12,7 @@
     p {
         font-size: 1rem;
         font-weight: 500;
+        line-height: 0;
     }
 }
 
@@ -20,10 +21,10 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    padding: 10px 0;
 
     p {
         margin: 0 0.25rem;
+        line-height: 0;
     }
 
     video {

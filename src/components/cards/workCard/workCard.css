@@ -16,7 +16,7 @@
 }
 
 .project-name {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 600;
   line-height: 0;
 }
@@ -25,6 +25,7 @@
   font-size: 1rem;
   font-weight: 300;
   font-style: italic;
+  line-height: 0.5rem;
 }
 
 .btn-link {

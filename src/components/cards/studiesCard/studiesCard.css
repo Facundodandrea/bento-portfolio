@@ -12,7 +12,7 @@
 }
 
 .info {
-    margin: 3rem;
+    margin: 1rem;
 
     h2 {
         font-size: 3.5rem;
@@ -40,7 +40,7 @@
     }
 
     .org {
-        font-size: 1rem;
+        font-size: 0.8rem;
         font-weight: 300;
         font-style: italic;
     }

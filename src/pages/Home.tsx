@@ -86,99 +86,101 @@ const Home = () => {
   })
 
   return (
-    <ResponsiveGridLayout
-      className='layout'
-      layouts={layouts}
-      breakpoints={{ lg: 1200, md: 996, sm: 768, xs: 480, xxs: 0 }}
-      cols={{ lg: 3, md: 3, sm: 2, xs: 1, xxs: 1 }}
-      rowHeight={62}
-      isDraggable={true}
-      isResizable={false}
-      margin={[32, 32]}
-    >
-      <div key='1' className='grid-item' onClick={e => e.stopPropagation()}>
-        <WideCard
-          markdownPath='/data/introduction.md'
-          imagePath='
+    <div className='container-grid'>
+      <ResponsiveGridLayout
+        className='layout'
+        layouts={layouts}
+        breakpoints={{ lg: 1200, md: 996, sm: 768, xs: 480, xxs: 0 }}
+        cols={{ lg: 3, md: 3, sm: 2, xs: 1, xxs: 1 }}
+        rowHeight={32}
+        isDraggable={true}
+        isResizable={false}
+        margin={[32, 32]}
+      >
+        <div key='1' className='grid-item' onClick={e => e.stopPropagation()}>
+          <WideCard
+            markdownPath='/data/introduction.md'
+            imagePath='
           /assets/imgs/face.avif'
-        >
-          <Button
-            link='mailto:facundodandrea01@gmail.com?subject=Consulta&body=Hola Facundo queremos hablar contigo'
-            icon={<EmailIcon />}
-            variant='icon'
-            external={true}
+          >
+            <Button
+              link='mailto:facundodandrea01@gmail.com?subject=Consulta&body=Hola Facundo queremos hablar contigo'
+              icon={<EmailIcon />}
+              variant='icon'
+              external={true}
+            />
+            <Button
+              link='https://www.linkedin.com/in/facundo-d-andrea/'
+              icon={<LinkedinIcon />}
+              variant='icon'
+              external={true}
+            />
+            <Button
+              link='https://github.com/Facundodandrea'
+              icon={<GithubIcon />}
+              variant='icon'
+              external={true}
+            />
+            <Button
+              link='https://www.instagram.com/facudandrea1/'
+              icon={<InstagramIcon />}
+              variant='icon'
+              external={true}
+            />
+          </WideCard>
+        </div>
+        <div key='2' className='grid-item' onClick={e => e.stopPropagation()}>
+          <AboutCard markdownPath='/data/about-me.md'>
+            <Tags technology='HTML' />
+            <Tags technology='CSS' />
+            <Tags technology='JavaScript' />
+            <Tags technology='TypeScript' />
+            <Tags technology='Sass' />
+            <Tags technology='React' />
+            <Tags technology='Astro' />
+            <Tags technology='MySQL' />
+            <Tags technology='Node' />
+          </AboutCard>
+        </div>
+        <div key='3' className='grid-item' onClick={e => e.stopPropagation()}>
+          <StudiesCard studies={studies} />
+        </div>
+        <div key='4' className='grid-item' onClick={e => e.stopPropagation()}>
+          <StatusCard isSearching={true} />
+        </div>
+        <div key='5' className='grid-item' onClick={e => e.stopPropagation()}>
+          <WorkCard
+            companyName='UxCorp Rangel'
+            link='/projects/portfolio-ana-rangel'
+            projectName='Portfolio Ana Rangel '
           />
-          <Button
-            link='https://www.linkedin.com/in/facundo-d-andrea/'
-            icon={<LinkedinIcon />}
-            variant='icon'
-            external={true}
+        </div>
+        <div key='6' className='grid-item' onClick={e => e.stopPropagation()}>
+          <WorkCard
+            companyName='Comunidad Javascript'
+            link='/projects/jsconf-chile-2024'
+            projectName='JSConf Chile 2024'
           />
-          <Button
-            link='https://github.com/Facundodandrea'
-            icon={<GithubIcon />}
-            variant='icon'
-            external={true}
+        </div>
+        <div key='7' className='grid-item' onClick={e => e.stopPropagation()}>
+          <WorkCard
+            companyName='UxCorp Rangel'
+            link='/projects/ux-corp-page'
+            projectName='UX Corp Rangel - Página oficial'
           />
-          <Button
-            link='https://www.instagram.com/facudandrea1/'
-            icon={<InstagramIcon />}
-            variant='icon'
-            external={true}
+        </div>
+        <div key='8' className='grid-item' onClick={e => e.stopPropagation()}>
+          <WorkCard
+            companyName='UxCorp Rangel'
+            link='/projects/portfolio-para-devs-jr'
+            projectName='Portfololio para devs - Jr'
           />
-        </WideCard>
-      </div>
-      <div key='2' className='grid-item' onClick={e => e.stopPropagation()}>
-        <AboutCard markdownPath='/data/about-me.md'>
-          <Tags technology='HTML' />
-          <Tags technology='CSS' />
-          <Tags technology='JavaScript' />
-          <Tags technology='TypeScript' />
-          <Tags technology='Sass' />
-          <Tags technology='React' />
-          <Tags technology='Astro' />
-          <Tags technology='MySQL' />
-          <Tags technology='Node' />
-        </AboutCard>
-      </div>
-      <div key='3' className='grid-item' onClick={e => e.stopPropagation()}>
-        <StudiesCard studies={studies} />
-      </div>
-      <div key='4' className='grid-item' onClick={e => e.stopPropagation()}>
-        <StatusCard isSearching={true} />
-      </div>
-      <div key='5' className='grid-item' onClick={e => e.stopPropagation()}>
-        <WorkCard
-          companyName='UxCorp Rangel'
-          link='/projects/portfolio-ana-rangel'
-          projectName='Portfolio Ana Rangel '
-        />
-      </div>
-      <div key='6' className='grid-item' onClick={e => e.stopPropagation()}>
-        <WorkCard
-          companyName='Comunidad Javascript'
-          link='/projects/jsconf-chile-2024'
-          projectName='JSConf Chile 2024'
-        />
-      </div>
-      <div key='7' className='grid-item' onClick={e => e.stopPropagation()}>
-        <WorkCard
-          companyName='UxCorp Rangel'
-          link='/projects/ux-corp-page'
-          projectName='UX Corp Rangel - Página oficial'
-        />
-      </div>
-      <div key='8' className='grid-item' onClick={e => e.stopPropagation()}>
-        <WorkCard
-          companyName='UxCorp Rangel'
-          link='/projects/portfolio-para-devs-jr'
-          projectName='Portfololio para devs - Jr'
-        />
-      </div>
-      <div key='9' className='grid-item' onClick={e => e.stopPropagation()}>
-        <FooterCard />
-      </div>
-    </ResponsiveGridLayout>
+        </div>
+        <div key='9' className='grid-item' onClick={e => e.stopPropagation()}>
+          <FooterCard />
+        </div>
+      </ResponsiveGridLayout>
+    </div>
   )
 }
 
