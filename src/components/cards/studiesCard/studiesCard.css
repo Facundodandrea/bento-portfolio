@@ -51,3 +51,34 @@
     padding: 0.75rem 1.25rem;
     border: 1px solid var(--border-color);
 }
+
+@media (Width <= 1265px) {
+    .study-item {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+
+@media (Width <= 1012px) {
+    .study-item {
+        flex-direction: row;
+    }
+}
+
+@media (Width <= 890px) {
+    .study-item {
+        flex-direction: column;
+    }
+}
+
+@media (Width <= 784px) {
+    .study-item {
+        flex-direction: row;
+    }
+}
+
+@media (Width <= 469px) {
+    .study-item {
+        flex-direction: column;
+    }
+}
