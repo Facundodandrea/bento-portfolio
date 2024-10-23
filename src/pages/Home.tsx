@@ -92,7 +92,7 @@ const Home = () => {
         layouts={layouts}
         breakpoints={{ lg: 1200, md: 996, sm: 768, xs: 480, xxs: 0 }}
         cols={{ lg: 3, md: 3, sm: 2, xs: 1, xxs: 1 }}
-        rowHeight={32}
+        rowHeight={21}
         isDraggable={true}
         isResizable={false}
         margin={[32, 32]}
