@@ -29,8 +29,8 @@ const ResponsiveGridLayout = WidthProvider(Responsive)
 const Home = () => {
   const [layouts] = useState({
     lg: [
-      { i: '1', x: 0, y: 0, w: 2, h: 6 },
-      { i: '2', x: 2, y: 0, w: 1, h: 14 },
+      { i: '1', x: 0, y: 0, w: 2, h: 9 },
+      { i: '2', x: 2, y: 0, w: 1, h: 17 },
       { i: '3', x: 0, y: 1, w: 1, h: 10 },
       { i: '4', x: 1, y: 1, w: 1, h: 2 },
       { i: '5', x: 1, y: 2, w: 1, h: 2 },
@@ -40,8 +40,8 @@ const Home = () => {
       { i: '9', x: 3, y: 1, w: 1, h: 2 },
     ],
     md: [
-      { i: '1', x: 0, y: 0, w: 2, h: 6 },
-      { i: '2', x: 2, y: 0, w: 1, h: 14 },
+      { i: '1', x: 0, y: 0, w: 2, h: 9 },
+      { i: '2', x: 2, y: 0, w: 1, h: 17 },
       { i: '3', x: 0, y: 6, w: 1, h: 10 },
       { i: '4', x: 1, y: 1, w: 1, h: 2 },
       { i: '5', x: 1, y: 24, w: 1, h: 2 },
@@ -51,8 +51,8 @@ const Home = () => {
       { i: '9', x: 2, y: 24, w: 1, h: 2 },
     ],
     sm: [
-      { i: '1', x: 0, y: 0, w: 2, h: 7 },
-      { i: '2', x: 0, y: 7, w: 1, h: 14 },
+      { i: '1', x: 0, y: 0, w: 2, h: 10 },
+      { i: '2', x: 0, y: 7, w: 1, h: 17 },
       { i: '3', x: 1, y: 1, w: 1, h: 10 },
       { i: '4', x: 1, y: 1, w: 1, h: 2 },
       { i: '5', x: 1, y: 2, w: 1, h: 2 },
@@ -62,8 +62,8 @@ const Home = () => {
       { i: '9', x: 0, y: 1, w: 1, h: 2 },
     ],
     xs: [
-      { i: '1', x: 0, y: 0, w: 2, h: 11, static: true },
-      { i: '2', x: 1, y: 0, w: 1, h: 14, static: true },
+      { i: '1', x: 0, y: 0, w: 2, h: 14, static: true },
+      { i: '2', x: 1, y: 0, w: 1, h: 17, static: true },
       { i: '3', x: 2, y: 0, w: 1, h: 10, static: true },
       { i: '4', x: 3, y: 0, w: 1, h: 2, static: true },
       { i: '5', x: 4, y: 0, w: 1, h: 2, static: true },
@@ -73,8 +73,8 @@ const Home = () => {
       { i: '9', x: 7, y: 0, w: 1, h: 2, static: true },
     ],
     xxs: [
-      { i: '1', x: 0, y: 0, w: 2, h: 14, static: true },
-      { i: '2', x: 1, y: 0, w: 1, h: 14, static: true },
+      { i: '1', x: 0, y: 0, w: 2, h: 17, static: true },
+      { i: '2', x: 1, y: 0, w: 1, h: 17, static: true },
       { i: '3', x: 2, y: 0, w: 1, h: 10, static: true },
       { i: '4', x: 3, y: 0, w: 1, h: 2, static: true },
       { i: '5', x: 4, y: 0, w: 1, h: 2, static: true },
