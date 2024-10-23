@@ -3,11 +3,11 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 1rem;
+    gap: 0.5rem;
     border-radius: 5rem;
     border: 1px solid var(--border-color);
     width: fit-content;
-    padding: 0.5rem;
+    padding: 0.5rem 0.8rem;
 
     font-size: 1rem;
     font-weight: 500;
