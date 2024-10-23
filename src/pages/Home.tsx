@@ -21,6 +21,7 @@ import {
 
 import './home.css'
 import Tags from '@/components/tags/Tags'
+import '@fontsource-variable/onest'
 
 // Envuelve Responsive con WidthProvider
 const ResponsiveGridLayout = WidthProvider(Responsive)

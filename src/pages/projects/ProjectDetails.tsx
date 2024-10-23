@@ -4,6 +4,7 @@ import ReactMarkdown from 'react-markdown'
 import rehypeRaw from 'rehype-raw' // Importa rehype-raw
 import Button from '@/components/button/Button'
 import './projectDetails.css'
+import '@fontsource-variable/onest'
 
 const ProjectPage: React.FC = () => {
   const { slug } = useParams<{ slug: string }>()
