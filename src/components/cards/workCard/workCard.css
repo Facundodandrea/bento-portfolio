@@ -34,6 +34,9 @@
   border-radius: 0.5rem;
   transition: all .3s ease;
   background-color: var(--bg-card);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .btn-link:hover {
