@@ -7,7 +7,6 @@
     align-items: center;
     border-radius: 1rem;
     background-color: var(--bg-card);
-    border: 1px solid var(--border-color);
 
     p {
         font-size: 1rem;

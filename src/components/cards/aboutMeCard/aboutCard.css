@@ -7,7 +7,6 @@
     overflow: hidden;
     border-radius: 1rem;
     background-color: var(--bg-card);
-    border: 1px solid var(--border-color);
     
     .info {
         margin: 1rem 2rem;
