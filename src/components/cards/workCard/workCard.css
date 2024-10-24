@@ -31,3 +31,87 @@
 .btn-link {
   margin-right: 1rem;
 }
+
+@media (Width <= 1297px) {
+  .work-card .work-info .project-name {
+    font-size: 1.15rem;
+  }
+}
+
+@media (Width <= 1225px) {
+  .work-card .work-info .project-name {
+    font-size: 1.1rem;
+  }
+}
+
+@media (Width <= 1189px) {
+  .work-card .work-info .project-name {
+    font-size: 1rem;
+  }
+}
+
+@media (Width <= 1120px) {
+  .work-card .work-info .project-name {
+    font-size: 0.9rem;
+  }
+}
+
+@media (Width <= 1048px) {
+  .work-card .work-info .project-name {
+    font-size: 0.8rem;
+  }
+}
+
+@media (Width <= 1012px) {
+  .work-card .work-info .project-name {
+    font-size: 1.25rem;
+  }
+}
+
+@media (Width <= 880px) {
+  .work-card .work-info .project-name {
+    font-size: 1.15rem;
+  }
+}
+
+@media (Width <= 832px) {
+  .work-card .work-info .project-name {
+    font-size: 1.1rem;
+  }
+}
+
+@media (Width <= 808px) {
+  .work-card .work-info .project-name {
+    font-size: 1rem;
+  }
+}
+
+@media (Width <= 784px) {
+  .work-card .work-info .project-name {
+    font-size: 1.25rem;
+  }
+}
+
+@media (Width <= 464px) {
+  .work-card .work-info .project-name {
+    font-size: 1.15rem;
+  }
+}
+
+@media (Width <= 440px) {
+  .work-card .work-info .project-name {
+    font-size: 1.1rem;
+  }
+}
+
+@media (Width <= 428px) {
+  .work-card .work-info .project-name {
+    font-size: 1rem;
+  }
+}
+
+@media (Width <= 428px) {
+  .work-card .work-info .project-name {
+    font-size: 0.9rem;
+  }
+}
