@@ -5,6 +5,7 @@ import rehypeRaw from 'rehype-raw' // Importa rehype-raw
 import Button from '@/components/button/Button'
 import './projectDetails.css'
 import '@fontsource-variable/onest'
+import { ArrowLeft } from '@/assets/icons'
 
 const ProjectPage: React.FC = () => {
   const { slug } = useParams<{ slug: string }>()
@@ -31,11 +32,21 @@ const ProjectPage: React.FC = () => {
 
   return (
     <div className='project-page'>
-      <Button link='/' label='volver' variant='transparent' />
+      <Button
+        link='/'
+        icon={<ArrowLeft />}
+        label='Volver'
+        variant='transparent'
+      />
       <div className='markdown-content'>
         <ReactMarkdown rehypePlugins={[rehypeRaw]}>{markdown}</ReactMarkdown>
       </div>
-      <Button link='/' label='volver' variant='transparent' />
+      <Button
+        link='/'
+        icon={<ArrowLeft />}
+        label='Volver'
+        variant='transparent'
+      />
     </div>
   )
 }
