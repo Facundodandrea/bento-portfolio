@@ -30,6 +30,21 @@
 
 .btn-link {
   margin-right: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.5rem;
+  transition: all .3s ease;
+  background-color: var(--bg-card);
+}
+
+.btn-link:hover {
+  border: 1px solid var(--border-color);
+  transition: all .3s ease;
+  box-shadow: 4px 4px 0 0 var(--border-color);
+}
+
+.btn-link:active {
+  transition: all .3s ease;
+  box-shadow: 2px 2px 0 0 var(--border-color);
 }
 
 @media (Width <= 1297px) {

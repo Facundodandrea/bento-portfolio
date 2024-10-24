@@ -70,6 +70,9 @@ a {
   color: #f9f9f9;
   text-decoration: inherit;
   transition: all 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 a:hover {
   color: #535bf2;
