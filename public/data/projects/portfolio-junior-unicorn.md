@@ -1,7 +1,7 @@
 
-# Portfolio para devs jr
+# Portfolio Junior Unicorn
 
-![Portada de JsConf Chile 2024](/assets/imgs/portfolios-devs-jr/banner.avif)
+![Portada de Portfolios para devs](/assets/imgs/portfolios-devs-jr/banner.avif)
 
 [Ir a GitHub](https://github.com/UXCorpRangel/uxcorprangel.github.io)
 

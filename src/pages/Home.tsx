@@ -172,8 +172,8 @@ const Home = () => {
         <div key='8' className='grid-item' onClick={e => e.stopPropagation()}>
           <WorkCard
             companyName='UxCorp Rangel'
-            link='/projects/portfolio-para-devs-jr'
-            projectName='Portfololio para devs - Jr'
+            link='/projects/portfolio-junior-unicorn'
+            projectName='Portfololio Junior Unicorn'
           />
         </div>
         <div key='9' className='grid-item' onClick={e => e.stopPropagation()}>
