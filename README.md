@@ -1,6 +1,6 @@
-# 🌈 Rainbow Unicor
+# 🌈 Rainbow Unicorn
 
-![Rainbow Unicor](public/assets/imgs/rainbow-unicorm.png)
+![Rainbow Unicorn](public/assets/imgs/rainbow-unicorm.png)
 
 Plantilla para desarrolladores que quieren tener un portafolio con un diseño tipo Bento minimalista y con una funcionalidad espectacular de reorganizar secciones.
 
